@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoWindowsForms
+
+namespace CursoWindowsFormsBiblioteca
 {
-    class Cls_Uteis
+    public class Cls_Uteis
     {
+
         public static bool Valida(string cpf)
         {
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -42,6 +44,5 @@ namespace CursoWindowsForms
             digito = digito + resto.ToString();
             return cpf.EndsWith(digito);
         }
-
     }
 }

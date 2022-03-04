@@ -27,7 +27,7 @@ namespace CursoWindowsForms
 
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
-            bool validaCPF = false;
+            bool validaCPF;
             validaCPF = Cls_Uteis.Valida(Msk_CPF.Text);
             if (validaCPF == true)
             {

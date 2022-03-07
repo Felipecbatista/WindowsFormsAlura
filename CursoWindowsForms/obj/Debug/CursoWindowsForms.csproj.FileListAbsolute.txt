@@ -33,3 +33,4 @@ C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsForms\obj\Debug\
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.GenerateResource.cache
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CoreCompileInputs.cache
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
+C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu_MDI.resources

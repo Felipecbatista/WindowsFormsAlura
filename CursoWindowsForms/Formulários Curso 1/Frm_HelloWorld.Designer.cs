@@ -44,9 +44,11 @@
             this.lbl_Titulo.Size = new System.Drawing.Size(213, 19);
             this.lbl_Titulo.TabIndex = 0;
             this.lbl_Titulo.Text = "Visual Studio .NET Version";
+            this.lbl_Titulo.Click += new System.EventHandler(this.lbl_Titulo_Click);
             // 
             // Btn_Sair
             // 
+            this.Btn_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Sair.Location = new System.Drawing.Point(250, 265);
             this.Btn_Sair.Name = "Btn_Sair";
             this.Btn_Sair.Size = new System.Drawing.Size(150, 23);
@@ -67,10 +69,13 @@
             // 
             // Txt_ConteudoLabel
             // 
+            this.Txt_ConteudoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_ConteudoLabel.Location = new System.Drawing.Point(34, 81);
             this.Txt_ConteudoLabel.Name = "Txt_ConteudoLabel";
             this.Txt_ConteudoLabel.Size = new System.Drawing.Size(311, 20);
             this.Txt_ConteudoLabel.TabIndex = 3;
+            this.Txt_ConteudoLabel.TextChanged += new System.EventHandler(this.Txt_ConteudoLabel_TextChanged);
             // 
             // Frm_HelloWorld
             // 
@@ -83,6 +88,7 @@
             this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello World";

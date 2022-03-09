@@ -1,7 +1,7 @@
 ﻿
 namespace CursoWindowsForms
 {
-    partial class Frm_Principal_Menu_MDI
+    partial class Frm_Principal_Menu_UC
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,8 @@ namespace CursoWindowsForms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu_UC));
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,9 +42,8 @@ namespace CursoWindowsForms
             this.valídaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cascataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.horizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
+            this.Iml_Imagens = new System.Windows.Forms.ImageList(this.components);
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -142,51 +143,42 @@ namespace CursoWindowsForms
             // 
             // windowsToolStripMenuItem
             // 
-            this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cascataToolStripMenuItem,
-            this.horizontalToolStripMenuItem,
-            this.verticalToolStripMenuItem});
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
-            // cascataToolStripMenuItem
+            // Tbc_Aplicacoes
             // 
-            this.cascataToolStripMenuItem.CheckOnClick = true;
-            this.cascataToolStripMenuItem.Name = "cascataToolStripMenuItem";
-            this.cascataToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.cascataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cascataToolStripMenuItem.Text = "&Cascata";
-            this.cascataToolStripMenuItem.Click += new System.EventHandler(this.CascataToolStripMenuItem_Click);
+            this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Tbc_Aplicacoes.ImageList = this.Iml_Imagens;
+            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 24);
+            this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
+            this.Tbc_Aplicacoes.SelectedIndex = 0;
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 426);
+            this.Tbc_Aplicacoes.TabIndex = 1;
             // 
-            // horizontalToolStripMenuItem
+            // Iml_Imagens
             // 
-            this.horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
-            this.horizontalToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.horizontalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.horizontalToolStripMenuItem.Text = "&Horizontal";
-            this.horizontalToolStripMenuItem.Click += new System.EventHandler(this.HorizontalToolStripMenuItem_Click);
+            this.Iml_Imagens.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Iml_Imagens.ImageStream")));
+            this.Iml_Imagens.TransparentColor = System.Drawing.Color.Transparent;
+            this.Iml_Imagens.Images.SetKeyName(0, "Frm_DemonstracaoKey.png");
+            this.Iml_Imagens.Images.SetKeyName(1, "Frm_HelloWorld.png");
+            this.Iml_Imagens.Images.SetKeyName(2, "Frm_Mascara.png");
+            this.Iml_Imagens.Images.SetKeyName(3, "Frm_ValidaCPF.png");
+            this.Iml_Imagens.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
+            this.Iml_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
-            // verticalToolStripMenuItem
-            // 
-            this.verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
-            this.verticalToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.verticalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.verticalToolStripMenuItem.Text = "&Vertical";
-            this.verticalToolStripMenuItem.Click += new System.EventHandler(this.VerticalToolStripMenuItem_Click);
-            // 
-            // Frm_Principal_Menu_MDI
+            // Frm_Principal_Menu_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Tbc_Aplicacoes);
             this.Controls.Add(this.Mnu_Principal);
-            this.IsMdiContainer = true;
             this.MainMenuStrip = this.Mnu_Principal;
-            this.Name = "Frm_Principal_Menu_MDI";
+            this.Name = "Frm_Principal_Menu_UC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
-            this.Load += new System.EventHandler(this.Frm_Principal_Menu_MDI_Load);
             this.Mnu_Principal.ResumeLayout(false);
             this.Mnu_Principal.PerformLayout();
             this.ResumeLayout(false);
@@ -207,8 +199,7 @@ namespace CursoWindowsForms
         private System.Windows.Forms.ToolStripMenuItem valídaSenhaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cascataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem horizontalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verticalToolStripMenuItem;
+        private System.Windows.Forms.TabControl Tbc_Aplicacoes;
+        private System.Windows.Forms.ImageList Iml_Imagens;
     }
 }

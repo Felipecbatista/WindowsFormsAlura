@@ -3,3 +3,4 @@ C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsFormsBiblioteca\
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\JAVALI\Desktop\Ex C# net\AluraWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache

@@ -37,6 +37,8 @@
             // 
             // Txt_Senha
             // 
+            this.Txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Senha.Location = new System.Drawing.Point(12, 45);
             this.Txt_Senha.Name = "Txt_Senha";
             this.Txt_Senha.PasswordChar = '*';
@@ -55,6 +57,7 @@
             // 
             // Btn_Reset
             // 
+            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Reset.Location = new System.Drawing.Point(245, 42);
             this.Btn_Reset.Name = "Btn_Reset";
             this.Btn_Reset.Size = new System.Drawing.Size(111, 23);
@@ -65,6 +68,7 @@
             // 
             // Btn_VerSenha
             // 
+            this.Btn_VerSenha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_VerSenha.Location = new System.Drawing.Point(245, 71);
             this.Btn_VerSenha.Name = "Btn_VerSenha";
             this.Btn_VerSenha.Size = new System.Drawing.Size(111, 23);
@@ -83,6 +87,7 @@
             this.Controls.Add(this.Lbl_Resultado);
             this.Controls.Add(this.Txt_Senha);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Frm_ValidaSenha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Validação de Senha";

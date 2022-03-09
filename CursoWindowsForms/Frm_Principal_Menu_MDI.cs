@@ -19,43 +19,55 @@ namespace CursoWindowsForms
 
         private void DemonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_DemonstracaoKey f = new Frm_DemonstracaoKey();
-            f.MdiParent = this;
+            Frm_DemonstracaoKey f = new Frm_DemonstracaoKey
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
         private void HelloWordToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_HelloWorld f = new Frm_HelloWorld();
-            f.MdiParent = this;
+            Frm_HelloWorld f = new Frm_HelloWorld
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
         private void MáscaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_Mascara f = new Frm_Mascara();
-            f.MdiParent = this;
+            Frm_Mascara f = new Frm_Mascara
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
         private void ValidaCPFToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_ValidaCPF f = new Frm_ValidaCPF();
-            f.MdiParent = this;
+            Frm_ValidaCPF f = new Frm_ValidaCPF
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
         private void ValidaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_ValidaCPF2 f = new Frm_ValidaCPF2();
-            f.MdiParent = this;
+            Frm_ValidaCPF2 f = new Frm_ValidaCPF2
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
         private void ValídaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_ValidaSenha f = new Frm_ValidaSenha();
-            f.MdiParent = this;
+            Frm_ValidaSenha f = new Frm_ValidaSenha
+            {
+                MdiParent = this
+            };
             f.Show();
         }
 
@@ -69,17 +81,17 @@ namespace CursoWindowsForms
 
         }
 
-        private void cascataToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CascataToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
         }
 
-        private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        private void HorizontalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
         }
 
-        private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
+        private void VerticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
 
